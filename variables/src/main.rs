@@ -5,6 +5,6 @@ fn main() {
 
     let (missiles, ready) = (STARTING_MISSILES, READY_AMOUNT);
     println!("Firing {} of my {} missiles...", ready, missiles);
-    println!("{} missiles left", missiles - ready);
+    println!("{} missiles left.", missiles - ready);
 
 }
